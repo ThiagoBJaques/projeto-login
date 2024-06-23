@@ -40,7 +40,11 @@ section#login {
     width: 250px;
     border-radius: 20px;
     overflow: hidden;   /* Esconder para trás da borda */
-    box-shadow: 0px 0px 10px #193c407d;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.515);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;   
+    /* Suavizada durante a animação */
 }
 
 section#login > div#imagem {
